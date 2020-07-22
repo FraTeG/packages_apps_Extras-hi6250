@@ -12,48 +12,44 @@
 
     <!-- RIL -->
     <string name="pref_huawei_simsetting_title">Dual SIM</string>
-    <string name="pref_huawei_simsetting_description">Schaltet Dual-SIM ein. Nur benutzen wenn sie 2 SIM-Karten eingelegt haben! (Neustart benötigt)</string>
+    <string name="pref_huawei_simsetting_description">Schaltet Dual-SIM ein (Neustart benötigt)</string>
     <string name="pref_huawei_simsetting_key" translatable="true">pref_huawei_simsetting</string>
 
     <!-- Gesten -->
     <string name="pref_huawei_dt2w_title">DT2W</string>
-    <string name="pref_huawei_dt2w_description">Zweimal auf Bildschirm tippen zum Aufwecken</string>
+    <string name="pref_huawei_dt2w_description">Zweimal auf den Bildschirm tippen um ihn aufzuwecken</string>
     <string name="pref_huawei_dt2w_key" translatable="true">pref_huawei_dt2w</string>
 
     <!-- Fehlerbehebungen -->
-    <string name="pref_aospa_vsync_title">Software vsync</string>
-    <string name="pref_aospa_vsync_description">Schaltet vsync vom hwcomposer aus um Lags zu fixen (Neustart benötigt)</string>
-    <string name="pref_aospa_vsync_key" translatable="true">pref_aospa_vsync</string>
-
-    <string name="pref_noble_title">Bluetooth pairing</string>
-    <string name="pref_noble_description">Behebt die Bluetooth-Kopplung, gleichzeitig wird BLE deaktiviert. (Neustart benötigt)</string>
+    <string name="pref_noble_title">Bluetooth Low Energy</string>
+    <string name="pref_noble_description">Behebt die Bluetooth-Kopplung, gleichzeitig wird BLE deaktiviert (Neustart benötigt)</string>
     <string name="pref_noble_key" translatable="true">pref_noble</string>
 
     <!-- HALs -->
     <string name="pref_hal_power_title">Stock Power-HAL</string>
-    <string name="pref_hal_power_description">Deaktivert die Open-Source Power-HAL. (Neustart benötigt)</string>
+    <string name="pref_hal_power_description">Deaktivert die Open-Source Power-HAL (Neustart benötigt)</string>
     <string name="pref_hal_power_key" translatable="true">pref_hal_power</string>
 
     <string name="pref_hal_lights_title">Stock Lights-HAL</string>
-    <string name="pref_hal_lights_description">Deaktivert die Open-Source Lights-HAL. (Neustart benötigt)</string>
+    <string name="pref_hal_lights_description">Deaktivert die Open-Source Lights-HAL (Neustart benötigt)</string>
     <string name="pref_hal_lights_key" translatable="true">pref_hal_lights</string>
 
-    <string name="pref_hal_sensors_title">Emulierter gyroscope</string>
-    <string name="pref_hal_sensors_description">Aktiviert den experimentellen Gyroscope-Sensor. (Neustart benötigt)</string>
+    <string name="pref_hal_sensors_title">Emuliere Gyroscope-Sensor</string>
+    <string name="pref_hal_sensors_description">Aktiviert den experimentellen Gyroscope-Sensor (Neustart benötigt)</string>
     <string name="pref_hal_sensors_key" translatable="true">pref_hal_sensors</string>
 
     <!-- Media -->
     <string name="pref_media_encoder_title">Google AVC encoder</string>
-    <string name="pref_media_encoder_description">Ersetzt den Stock Video-Kodierer durch den von Google. Möglicherweise wird die Kamera in einigen Apps behoben. (Neustart benötigt)</string>
+    <string name="pref_media_encoder_description">Ersetzt den Stock Video-Kodierer durch den von Google (Neustart benötigt)</string>
     <string name="pref_media_encoder_key" translatable="true">pref_media_encoder</string>
 
     <!-- Andere -->
     <string name="pref_huawei_glovemode_title">Handschuh-Modus</string>
-    <string name="pref_huawei_glovemode_description">Höhere Touch-Empfindlichkeit.</string>
+    <string name="pref_huawei_glovemode_description">Touch-Empfindlichkeit wird erhöht</string>
     <string name="pref_huawei_glovemode_key" translatable="true">pref_huawei_glovemode</string>
 
     <string name="pref_huawei_usbhostmode_title">USB-OTG</string>
-    <string name="pref_huawei_usbhostmode_description">Aktiviert USB-OTG.</string>
+    <string name="pref_huawei_usbhostmode_description">Aktiviert USB-OTG (wird vom Kernel nicht unterstützt, benutze EliteKernel 7.1)</string>
     <string name="pref_huawei_usbhostmode_key" translatable="true">pref_huawei_usbhostmode</string>
 
     <!-- Menu -->

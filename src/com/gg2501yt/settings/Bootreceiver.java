@@ -35,9 +35,4 @@ public class Bootreceiver extends BroadcastReceiver  {
         if (Functions.IsGloveModeAvailable() && preferenceManager.getBoolean("pref_huawei_glovemode", false)) {
             Functions.SetGloveModeValue(true);
         }
-
-        // Enable VSYNC workaround
-        boolean vsyncEnabled = preferenceManager.getBoolean("pref_aospa_vsync", true);
-        SystemPropertiesReflection.SetSystemString("debug.sf.no_hw_vsync", vsyncEnabled ? "1" : "0");
-    }
-}
+}}

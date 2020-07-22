@@ -160,11 +160,6 @@ public class SettingsActivity extends SettingsDrawerActivity {
                 switchPref.setEnabled(false);
             }
 
-            // Set Workarounds/Software vsync
-            actualBool = SystemPropertiesReflection.GetSystemBoolean(PROPERTY_SOFT_VSYNC, true);
-            switchPref = (SwitchPreference)findPreference("pref_aospa_vsync");
-            switchPref.setChecked(actualBool);
-
             // Set Workarounds/Bluetooth pairing
             actualBool = SystemPropertiesReflection.GetSystemBoolean(PROPERTY_NOBLE, true);
             switchPref = (SwitchPreference)findPreference("pref_noble");
@@ -235,11 +230,6 @@ public class SettingsActivity extends SettingsDrawerActivity {
                 case R.string.pref_huawei_dt2w_key: {
                     Functions.SetDT2WValue(newValue);
                     editor.putBoolean("pref_huawei_dt2w", newValue);
-                    break;
-                }
-                case R.string.pref_aospa_vsync_key: {
-                    SystemPropertiesReflection.SetSystemString(PROPERTY_SOFT_VSYNC, newValue ? "1" : "0");
-                    editor.putBoolean("pref_aospa_vsync", newValue);
                     break;
                 }
                 case R.string.pref_noble_key: {
